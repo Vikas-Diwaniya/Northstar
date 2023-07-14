@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>ABOUT</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <!-- NorthStar -->
+        <img class="logo" alt="Omnifood logo" src="img/logo.jpg" />
+      </a>
+      <nav class="main-nav txt-uppercase">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li>
+            <a class="main-nav-link current-page" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="contact-us.html">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-icons">
+        <ion-icon class="nav-icon" name="person-outline"></ion-icon>
+        <ion-icon class="nav-icon" name="cart-outline"></ion-icon>
+        <ion-icon class="nav-icon" name="menu-outline"></ion-icon>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about-hero">
+        <div class="about-hero">
+          <div class="about-hero-text-box txt-uppercase">
+            <p class="heading-primary">About NorthStar</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-buy">
+        <div class="buy-box grid grid--2-cols">
+          <div class="women-box">
+            <a
+              href="shop.html"
+              class="btn--shop-now"
+              onclick="location.href=this.href+'?category=women';return false;"
+              >Shop Now</a
+            >
+          </div>
+          <div class="men-box">
+            <a
+              href="shop.html"
+              class="btn--shop-now"
+              onclick="location.href=this.href+'?category=men';return false;"
+              >Shop Now</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section-founders">
+        <h2 class="heading-tertiary text-center margin--bottom-md">
+          The Founders
+        </h2>
+        <div class="founders-detail grid grid--4-cols">
+          <figure class="img-box">
+            <img src="img/founders/jawad.jpg" alt="Founders Image" />
+            <figcaption>
+              <p class="founders-name">HM Jawad</p>
+            </figcaption>
+          </figure>
+          <figure class="img-box">
+            <img src="img/founders/abid.jpg" alt="Founders Image" />
+            <figcaption>
+              <p class="founders-name">Furqan Abid</p>
+            </figcaption>
+          </figure>
+          <figure class="img-box">
+            <img src="img/founders/abdullah.jpg" alt="Founders Image" />
+            <figcaption>
+              <p class="founders-name">Abdullah Ah</p>
+            </figcaption>
+          </figure>
+          <figure class="img-box">
+            <img src="img/founders/abrar.jpg" alt="Founders Image" />
+            <figcaption>
+              <p class="founders-name">Abrar Khan</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-testimonials">
+        <h3 class="heading-tertiary text-center">Testimonials</h3>
+        <div class="testimonials-card">
+          <div class="testimonials-content">
+            <div class="testimonials-img-box">
+              <img
+                class="testimonial-img"
+                src="img/customers/customer-3.jpg"
+                alt="Stacy"
+              />
+            </div>
+            <div class="testimonials-text-box">
+              <blockquote class="testimonial-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia, quas! Eius eaque aperiam corporis maiores excepturi
+                explicabo iusto suscipit hic, ipsum nisi recusandae culpa
+                reiciendis animi neque temporibus debitis quibusdam!
+              </blockquote>
+              <p class="testimonial-author">Stacy</p>
+            </div>
+          </div>
+          <div class="testimonials-content">
+            <div class="testimonials-img-box">
+              <img
+                src="img/customers/customer-4.jpg"
+                class="testimonial-img"
+                alt="Tiffany"
+              />
+            </div>
+            <div class="testimonials-text-box">
+              <p class="testimonial-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
+                tempore mollitia molestiae, tenetur et necessitatibus, rerum
+                sequi, recusandae libero exercitationem obcaecati excepturi
+                voluptatum alias! Nemo commodi rem perferendis ratione quasi!
+              </p>
+              <p class="testimonial-author">Tiffany</p>
+            </div>
+          </div>
+          <div class="testimonials-content">
+            <div class="testimonials-img-box">
+              <img
+                src="img/customers/customer-5.jpg"
+                class="testimonial-img"
+                alt="James"
+              />
+            </div>
+            <div class="testimonials-text-box">
+              <p class="testimonial-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quaerat asperiores optio exercitationem, consectetur aut
+                distinctio, praesentium voluptates commodi omnis magnam eos
+                illum. Architecto nihil quaerat ea culpa officia eligendi et!
+              </p>
+              <p class="testimonial-author">James</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <nav class="nav-col">
+          <p class="footer-heading">Company Info</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Us</a></li>
+            <li><a class="footer-link" href="#">Latest Posts</a></li>
+            <li><a class="footer-link" href="#">Contact Us</a></li>
+            <li><a class="footer-link" href="#">Shop</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Help Links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Tracking</a></li>
+            <li><a class="footer-link" href="#">Order Status</a></li>
+            <li><a class="footer-link" href="#">Delivery</a></li>
+            <li><a class="footer-link" href="#">Shipping Info</a></li>
+            <li><a class="footer-link" href="#">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Useful Links</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Special Offers </a></li>
+            <li><a class="footer-link" href="#">Gift Cards</a></li>
+            <li><a class="footer-link" href="#">Advertising</a></li>
+            <li><a class="footer-link" href="#">Terms of use</a></li>
+          </ul>
+        </nav>
+
+        <div class="get-to-know-col">
+          <p class="footer-heading">Get in the know</p>
+
+          <div class="know-mail">
+            <input type="text" placeholder="Enter mail" class="mail-input" />
+            <ion-icon
+              class="mail-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+        </div>
+      </div>
+
+      <div class="additional-info-footer">
+        <div class="additonal-text">
+          <p class="copyright">Copyright &copy; 2027 by NorthStar eCommerce</p>
+          <p class="privacy">Privacy Policy Terms & Conditions</p>
+        </div>
+
+        <div class="additonal-icons">
+          <ion-icon class="additional-icon" name="logo-paypal"></ion-icon>
+          <ion-icon
+            class="additional-icon"
+            name="logo-google-playstore"
+          ></ion-icon>
+          <ion-icon
+            class="additional-icon"
+            name="logo-google-playstore"
+          ></ion-icon>
+          <ion-icon class="additional-icon" name="logo-linkedin"></ion-icon>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
